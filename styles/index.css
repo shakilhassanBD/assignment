@@ -65,7 +65,6 @@ header {
     width: auto;
     height: 500px;
     margin: auto;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -96,12 +95,19 @@ li{
     width: 25px;
     height: 25px;
 }
-.my-mistakes
-
-.mistakes-heading {}
+.my-mistakes h3{
+    font-weight: 700px;
+    font-size: 24px;
+    color: black;
+    padding: 20px 0;
+}
+.my-mistakes p{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 0;
+}
 
 /* .............main section one end.............*/
-
 
 /* ............main section two and three start from here............ */
 
@@ -132,7 +138,39 @@ li{
 
 /* ...............gradient color styles......... */
 
-.main-sec-three {}
+.main-sec-three {
+    width: 900px;
+    height: 200px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-image: url('/images/watch.png');
+    background-size: cover;
+    background-image: linear-gradient();
+}
+.gradient-heading{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin: 20px 200px 30px 40px;
+    padding: 10px;
+}
+.gradient-heading button{
+    color: rgb(41, 41, 238);
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    border-style: none;
+}
+
 /* ...............main section is end here */
 
 /* ...............footer.................. */
