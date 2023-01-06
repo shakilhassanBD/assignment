@@ -2,40 +2,159 @@
     margin: 0;
     padding: 0;
     text-transform: capitalize;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.header-section {}
+body {
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
 
-.banner {}
+}
 
-.banner-heading {}
+header {
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+}
 
-.header-details {}
+.banner {
+    position: relative;
+    text-align: 100px right;
+}
 
-.contact-btn {}
+.banner-heading {
+    width: 380px;
+    height: auto;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    text-align: right;
+    margin: 120px 100px 0px 650px;
+    /* border: 1px solid black; */
+    
+}
+
+.banner-details {
+    width: 400px;
+    height: auto;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 100px 30px 625px;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    color: aliceblue;
+}
+
+.contact-btn {
+    margin: 30px 0 150px 905px;
+    font-size: 18px;
+    color: #0152AD;
+    background-color: white;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
 
 /*................ header is close................ */
 
 
 /* ..............main is start from here........... */
 
-.main-sec-one {}
+.main-sec-one {
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
 
-.profile-img {}
+.profile-img {
+    width: 400px;
+    height: 450px;
+    margin: 60px 0 0px 150px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.person-img{
+    width: 400px;
+    height: 420px;
+    /* border: 1px solid black; */
+    background-color: #E6E7E9;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+}
+.my-mistakes {
+    /* width: 200px; */
+    border: 1px solid black;
+    margin: 170px 250px 50px 0;
+    padding: 10px;
+    background-color: #eff0f5;
+}
 
-.my-mistakes {}
+.mistakes-heading {
+    
 
-..mistakes-heading {}
+
+        
+}
 
 /* .............main section one end.............*/
 
 /* ............main section two and three start from here............ */
 
-.main-sec-two {}
+.section-two-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0px auto 0;
+    border: 1px solid black;
+    text-align: center;
 
-.icon {}
 
-.icon-heading {}
+}
+.main-sec-two {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: auto;
+    margin: 30px auto 50px;
+    text-align: center;
+    
+}
+.main-sec-two h3{
+    padding: 7px;
+}
+.main-sec-two p{
+    color: rgb(83, 81, 81);
+    padding-bottom: 5px;
+}
+.icon {
+    width: 60px;
+}
+.icon-heading {
+   
+}
+.web-icon{
+    
+}
+.js-icon{
+
+}
+.web-icon{
+
+}
+.web-icon{
+
+}
+
 
 /* ...............gradient color styles......... */
 
@@ -44,7 +163,11 @@
 /* ...............main section is end here */
 
 /* ...............footer.................. */
-
+footer{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
 .social-address {}
 
 .address-heading {}
