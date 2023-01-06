@@ -1,5 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-transform: capitalize;
 }
+
+.header-section {}
+
+.banner {}
+
+.banner-heading {}
+
+.header-details {}
+
+.contact-btn {}
+
+/*................ header is close................ */
+
+
+/* ..............main is start from here........... */
+
+.main-sec-one {}
+
+.profile-img {}
+
+.my-mistakes {}
+
+..mistakes-heading {}
+
+/* .............main section one end.............*/
+
+/* ............main section two and three start from here............ */
+
+.main-sec-two {}
+
+.icon {}
+
+.icon-heading {}
+
+/* ...............gradient color styles......... */
+
+.main-sec-three {}
+
+/* ...............main section is end here */
+
+/* ...............footer.................. */
+
+.social-address {}
+
+.address-heading {}
+
+.address-details {}
+
+.social-icon {}
+
+.user-data {}
+
+.user-email {}
+
+.subscribe-btn {}
