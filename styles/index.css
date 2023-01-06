@@ -142,12 +142,10 @@ li{
     width: 900px;
     height: 200px;
     margin: 50px auto;
-    border: 1px solid black;
     border-radius: 10px;
     position: relative;
-    background-image: url('/images/watch.png');
     background-size: cover;
-    background-image: linear-gradient();
+    background-image: url(../images/watch.png);
 }
 .gradient-heading{
     position: absolute;
@@ -158,6 +156,7 @@ li{
     color: white;
     margin: 20px 200px 30px 40px;
     padding: 10px;
+
 }
 .gradient-heading button{
     color: rgb(41, 41, 238);
