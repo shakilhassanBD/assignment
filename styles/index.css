@@ -170,10 +170,11 @@ li {
     margin: 50px auto;
     position: relative;
     background-size: cover;
-    background-image: url(../images/watch.png);
     opacity: 1;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    background: linear-gradient(to right, red, blue, skyblue, white);
+    opacity: 0.4;
 
 }
 
@@ -255,7 +256,7 @@ footer {
 .footer-div {
     width: 300px;
     height: auto;
-    margin: 20px 0;
+    margin: 50px 0 20px 0;
     padding: 10px;
 }
 
