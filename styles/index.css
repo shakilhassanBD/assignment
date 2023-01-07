@@ -63,7 +63,10 @@ header {
 
 /* ..............main is start from here........... */
 main{
+    width: auto;
+    height: auto;
     background-color: rgb(150, 150, 70);
+    padding-bottom: 50px;
 }
 
 .main-sec-one {
@@ -247,7 +250,6 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-around;
-    border-radius: 5px;
 }
 
 .footer-div {
