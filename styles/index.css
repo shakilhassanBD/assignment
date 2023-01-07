@@ -62,6 +62,9 @@ header {
 
 
 /* ..............main is start from here........... */
+main{
+    background-color: rgb(150, 150, 70);
+}
 
 .main-sec-one {
     width: auto;
@@ -69,7 +72,7 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    padding-top:150ppx;
 }
 
 li {
@@ -145,12 +148,17 @@ li {
 .main-sec-two p {
     color: rgb(83, 81, 81);
     padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding: 0 10px;
 }
-
 .icon {
     width: 60px;
+    padding: 10px 0 0 0;
 }
-
+.icon-div{
+    background-color: #9cc9ee;
+    border-radius: 20px;
+}
 /* ...............gradient color styles......... */
 
 .main-sec-three {
@@ -160,9 +168,10 @@ li {
     position: relative;
     background-size: cover;
     background-image: url(../images/watch.png);
+    opacity: 1;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    
+
 }
 
 .gradient-heading {
@@ -188,6 +197,45 @@ li {
     margin: 10px 0;
     border-style: none;
 }
+.list-heading{
+    width: 400px;
+    height: auto;
+    margin: 30px auto 0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(27, 27, 27);
+
+}
+.my-fav-books{
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.my-fav-books img{
+    width: 100px;
+    height: 120px;
+}
+.book{
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #9cc9ee;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.list p{
+    font-weight: 500px bolder;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
 
 /* ...............main section is end here */
 
@@ -205,7 +253,7 @@ footer {
 .footer-div {
     width: 300px;
     height: auto;
-    margin: 30px 0;
+    margin: 20px 0;
     padding: 10px;
 }
 
