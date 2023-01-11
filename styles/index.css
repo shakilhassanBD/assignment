@@ -173,11 +173,10 @@ li {
     opacity: 1;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    background: linear-gradient(to right, red, blue, skyblue, white);
-    opacity: 0.4;
-
+    background: url(../images/watch.png), linear-gradient(to right, red, blue, skyblue, rgb(153, 148, 148));
+    background-blend-mode: multiply;
 }
-
+/* ................gradiend color property end here................. */
 .gradient-heading {
     position: absolute;
     width: 400px;
